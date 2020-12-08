@@ -862,6 +862,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 619971420366689577, guid: 257652697c2eb6e45ab6c56078386798,
+        type: 3}
+      propertyPath: _speedMoveDown
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 619971420366689577, guid: 257652697c2eb6e45ab6c56078386798,
+        type: 3}
+      propertyPath: _isMouseBottom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 619971420366689577, guid: 257652697c2eb6e45ab6c56078386798,
+        type: 3}
+      propertyPath: _speedMoveUp
+      value: 0.05
+      objectReference: {fileID: 0}
     - target: {fileID: 1341377841821185513, guid: 257652697c2eb6e45ab6c56078386798,
         type: 3}
       propertyPath: m_LocalPosition.x
