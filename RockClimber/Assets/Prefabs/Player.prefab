@@ -123,9 +123,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rbMain: {fileID: 1395772203182719398}
+  _startMosePos: {x: 0, y: 0, z: 0}
+  _currentMosePos: {x: 0, y: 0, z: 0}
+  _direcrionVector: {x: 0, y: 0, z: 0}
   _forceJump: 20
   _speedMoveDown: 1
   _speedMoveUp: 0.5
+  _isMouseBottom: 0
+  _isMoveDown: 0
+  _isMoveUp: 0
 --- !u!54 &1395772203182719398
 Rigidbody:
   m_ObjectHideFlags: 0

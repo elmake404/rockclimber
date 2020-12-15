@@ -24,7 +24,7 @@ public class Graviti : MonoBehaviour
     void FixedUpdate()
     {
 
-        _rbMain.AddForce(_directionGraviti*9.8f);
+        _rbMain.AddForce(_directionGraviti*9.8f,ForceMode.Acceleration);
     }
     [ContextMenu("GetRigidbody")]
     public void GetRigidbody()
