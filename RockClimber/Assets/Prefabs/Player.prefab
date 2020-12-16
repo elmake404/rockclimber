@@ -127,8 +127,8 @@ MonoBehaviour:
   _currentMosePos: {x: 0, y: 0, z: 0}
   _direcrionVector: {x: 0, y: 0, z: 0}
   _forceJump: 20
-  _speedMoveDown: 1
-  _speedMoveUp: 0.5
+  _speedMoveDown: 13
+  _speedMoveUp: 6.5
   _isMouseBottom: 0
   _isMoveDown: 0
   _isMoveUp: 0

@@ -14,8 +14,8 @@ public class Player : MonoBehaviour
     private float _forceJump;
     [SerializeField]
     private float _speedMoveDown, _speedMoveUp;
-    [SerializeField]
-    private bool _isMouseBottom, _isMoveDown, _isMoveUp;
+    //[SerializeField]
+    //private bool _isMouseBottom, _isMoveDown, _isMoveUp;
     private void Start()
     {
         _cam = Camera.main;
@@ -24,7 +24,7 @@ public class Player : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            _isMouseBottom = true;
+            //_isMouseBottom = true;
             _startMosePos = _cam.ScreenToViewportPoint(Input.mousePosition);
         }
         else if (Input.GetMouseButton(0))
@@ -69,9 +69,9 @@ public class Player : MonoBehaviour
         {
             _direcrionVector = _rbMain.velocity;
 
-            _isMouseBottom = false;
-            _isMoveUp = false;
-            _isMoveDown = false;
+            //_isMouseBottom = false;
+            //_isMoveUp = false;
+            //_isMoveDown = false;
         }
     }
     private void FixedUpdate()
